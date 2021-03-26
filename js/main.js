@@ -1,4 +1,70 @@
-var nome = "Guilherme Galante";
+// Funções
+
+function botao(){
+
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+    
+    //alert("obrigado por clicar");
+
+}
+
+function redirecionar(){
+    //window.open("https://www.google.com.br/");
+    window.location.href = "https://www.google.com.br/";
+}
+
+function soma (n1,n2){
+    
+    return n1 + n2;
+ 
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+
+function load(){
+    alert("Pagina")
+}
+
+function passarMouse(elemento){
+    elemento.innerHTML= "Obrigado por passar o mouse";
+    //document.getElementById("mouse").innerHTML = "Obrigado por passar o mouse";
+    //alert("trocar texto");
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui!!!";
+    //document.getElementById("mouse").innerHTML = "Passe o mouse aqui!!!";
+    //alert("trocar texto");
+}
+
+
+
+/*function validaIdade (idade){
+    var validar;
+    if (idade >= 18){
+        validar = true;
+    }else{
+       validar = false; 
+    }
+    return validar;
+}*/
+
+//var idade = prompt("Qual a sua idade");
+//console.log(validaIdade(idade));
+
+/*function setReplace(frase, nome, nome2){
+    return frase.replace(nome, nome2);
+
+}
+*/
+//alert(soma(5,10));
+//alert(setReplace("vai japão", "japão", "brasil"));
+
+
+
+/*var nome = "Guilherme Galante";
 var idade = 42;
 var idade2 = 10;
 var lista = ["maça" , "pera" , "banana"]; 
@@ -9,7 +75,7 @@ var count = 0;
 var i = 0;
 var d = new Date();
 
-alert (d.getMonth()+1);
+alert (d.getMonth()+1);*/
 
 //lista.pop(); 
 
